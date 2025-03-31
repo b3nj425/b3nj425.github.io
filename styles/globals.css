@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+* {
+  font-family: 'VT323', sans-serif;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 8px #66d618;
+}
+
+.projects-folder {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background-color: #eeeeee;
+  border: 4px solid #b6b6b6;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+.readme-paper {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background-color: #eeeeee;
+  border: 4px solid #b6b6b6;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+.bingo-folder {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background-color: #eeeeee;
+  border: 4px solid #b6b6b6;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.info-window {
+  position: absolute;
+  background-color: rgb(1, 8, 1);
+  width: auto;
+  text-align: center;
+  z-index: 15;
+  border: 4px solid #17a817;
+  flex-direction: column;
+  padding: 50px;
+}
+.skillswindow {
+  border: 4px solid rgb(23, 168, 23);
+  text-align: center;
+  padding: 4px;
+  position: relative;
+  
+}
+.skillswindownobottom {
+  border-top: 4px solid rgb(23, 168, 23);
+  border-left: 4px solid rgb(23, 168, 23);
+  border-right: 4px solid rgb(23, 168, 23);
+  text-align: center;
+  padding: 4px;
+  position: relative;
+  
+}
+.skillswindowafter {
+  border-top: 4px solid rgb(23, 168, 23);
+  border-left: 4px solid rgb(23, 168, 23);
+  border-right: 4px solid rgb(23, 168, 23);
+  text-align: center;
+  padding: 4px;
+  position: relative;
+  background: rgb(23, 168, 23);
+  color: #0b1801;
+}
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
